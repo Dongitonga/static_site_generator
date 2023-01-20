@@ -7,6 +7,7 @@ Copy code
 git clone https://github.com/Dongitonga/static_site_generator.git
 ## Install the dependencies
 Copy code
+
 npm install
 
 Usage
