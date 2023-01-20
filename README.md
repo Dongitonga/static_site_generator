@@ -18,7 +18,7 @@ Place your Markdown files in the pages folder
 
 Copy code
 
-npm start or npm run dev
+npm start or npm run start
 
 The generated HTML files will be placed in the output folder
 
