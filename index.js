@@ -26,24 +26,3 @@ fs.readdir(inputDir, (err, files) => {
   });
 });
 
-// app.use(express.static(outputDir));
-
-// app.get("/", (req, res) => {
-//   res.sendFile(`${outputDir}/index.html`);
-// });
-
-// app.get("/:page", (req, res) => {
-//   res.sendFile(`${outputDir}/${req.params.page}.html`);
-// });
-
-// // Handle requests for non-existing pages
-// // app.get("*", (req, res) => {
-// //   res.status(404).sendFile(`${outputDir}/404.html`);
-// // });
-// app.get("*", (req, res) => {
-//   res.status(404).sendFile(path.join(__dirname, outputDir, "404.html"));
-// });
-
-// app.listen(3000, () => {
-//   console.log("Server started on http://localhost:3000");
-// });
